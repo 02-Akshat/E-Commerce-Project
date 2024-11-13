@@ -1,0 +1,65 @@
+body {
+    overflow: hidden;
+}
+#main {
+    height: 100vh;
+    position: relative;
+    background: url('./Images/Cover/Bg-cover.jpeg') center center/cover;
+}
+.nav {
+    background:transparent;
+}
+
+.nav a {
+    font-size: 15px;
+}
+.website-name {
+    letter-spacing: 2px !important;
+}
+.footer {
+    bottom: 25px;
+    border: 0.001px solid rgba(255, 255, 255, 0.471);
+    right: 25px;
+    padding: 0.1px 80px;
+    border-radius: 25px;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    background:transparent;
+    height: 5rem;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cover-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    animation: slideIn ease-in-out 2s forwards;
+    
+}
+.cover-setion-content {
+    margin-left: 15px;
+    padding-left: 120px;
+}
+.cover-setion-content h1 {
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    font-size: 5rem !important;
+}
+
+.cover-setion-content p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-style: normal;
+}
